@@ -1,0 +1,35 @@
+.education {
+  display: flex;
+  flex-direction: column;
+}
+.education-item {
+  display: flex;
+  justify-content: space-between;
+}
+.subheading {
+  font-size: 25px;
+  margin: 50px 0px 16px 0px;
+  font-family: "Playfair Display", serif;
+}
+.e-heading1 {
+  font-size: 16px;
+  margin: 15px 10px 8px 0px;
+}
+.e-heading1-subheading {
+  color: rgb(89, 89, 89);
+  font-size: 16px;
+  margin: 0px 0px 35px 0px;
+}
+.right-allign {
+  text-align: right;
+}
+.date {
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+.city {
+  color: rgb(89, 89, 89);
+  font-size: 16px;
+  text-align: right;
+}

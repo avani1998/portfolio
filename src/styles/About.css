@@ -1,0 +1,34 @@
+.intro {
+  font-size: 23px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.name {
+  font-family: "Playfair Display", serif;
+  color: rgb(55, 53, 47);
+  font-size: 4rem;
+  margin: -20px 0px 0px 5px;
+}
+.quote-intro p {
+  /* font-family: "Courier Prime", monospace; */
+  font-size: 16px;
+  margin: 12px 0px auto;
+  line-height: 1.5;
+}
+.quote-intro {
+  display: block;
+  border-left: 3px solid rgb(55, 53, 47);
+  padding: 0px 12px;
+  width: 100%;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 18px 10px 20px 5px;
+  /* margin-bottom: 20px; */
+  /* margin-left: 10px; */
+}
+.background {
+  background: rgb(247, 246, 243);
+  padding: 10px 20px 20px 20px;
+  border-radius: 15px;
+  margin: 0px 0px 20px 0px auto;
+}

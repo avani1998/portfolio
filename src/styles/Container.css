@@ -1,0 +1,6 @@
+.container {
+  width: 800px;
+  margin: 0 auto; /* center the component horizontally*/
+  background-color: transparent;
+  font-family: "Courier Prime", monospace;
+}

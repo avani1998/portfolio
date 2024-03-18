@@ -1,0 +1,44 @@
+.w-subheading {
+  font-size: 25px;
+  margin: 50px 0px 16px 0px;
+  font-family: "Playfair Display", serif;
+}
+.w-heading1 {
+  font-size: 16px;
+  margin: 0px 0px 0px 0px;
+  font-family: "Courier Prime", monospace;
+}
+.w-heading1-subheading {
+  color: rgb(89, 89, 89);
+  font-size: 16px;
+  margin: 0px 0px 0px 0px;
+  font-family: "Courier Prime", monospace;
+}
+.work-item {
+  display: flex;
+  justify-content: space-between;
+}
+.w-right-allign {
+  font-family: "Courier Prime", monospace;
+  text-align: right;
+}
+.w-date {
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.w-city {
+  color: rgb(89, 89, 89);
+  font-size: 16px;
+  text-align: right;
+  margin: 0px 0px 0px 0px;
+}
+.work-description {
+  list-style-type: disc;
+  background: rgb(247, 246, 243);
+  border-radius: 15px;
+  padding: 12px 10px 10px 30px;
+  margin: 12px 10px 12px 10px;
+  font-family: "Courier Prime", monospace;
+  font-size: 15px;
+}
