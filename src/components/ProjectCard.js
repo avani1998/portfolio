@@ -9,7 +9,7 @@ import {
   Box,
 } from "@mui/material";
 
-const ProjectCard = ({ image, title, description, tags }) => {
+const ProjectCard = ({ image, title, description, tags, link }) => {
   const tagColors = {
     Python: "#DBEDDC",
     Java: "#EFDFDA",
@@ -38,7 +38,7 @@ const ProjectCard = ({ image, title, description, tags }) => {
         },
       }}
     >
-      <CardActionArea>
+      <CardActionArea href={link} target="_blank">
         <CardMedia
           component="img"
           height="250"

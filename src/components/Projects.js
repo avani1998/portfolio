@@ -10,6 +10,7 @@ const projects = [
     title: "Interrilato",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
     tags: ["React", "Javascript", "CSS"],
+    link: "https://github.com/avani1998/Interrilato",
   },
   {
     image: "/airbnb.png",
@@ -17,6 +18,7 @@ const projects = [
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. fermentum orci. Donec scelerisque lectus et est dapibus suscipit. Donec volutpat scelerisque ex,",
     tags: ["Python"],
+    link: "https://github.com/avani1998/Airbnb-Data-Analysis",
   },
 ];
 function Projects() {
@@ -32,6 +34,7 @@ function Projects() {
                 title={project.title}
                 description={project.description}
                 tags={project.tags}
+                link={project.link}
               />
             </Grid>
           </React.Fragment>
