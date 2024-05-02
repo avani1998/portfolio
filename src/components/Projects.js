@@ -6,14 +6,14 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
-    image: "/donut.jpeg",
-    title: "Donut Project",
+    image: "/map.png",
+    title: "Interrilato",
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
     tags: ["React", "Javascript", "CSS"],
   },
   {
-    image: "/pancake.jpeg",
-    title: "Pancake Project",
+    image: "/airbnb.png",
+    title: "Airbnb Data Analysis",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. fermentum orci. Donec scelerisque lectus et est dapibus suscipit. Donec volutpat scelerisque ex,",
     tags: ["Python"],
@@ -28,6 +28,7 @@ function Projects() {
           <React.Fragment>
             <Grid item xs={12} s={3} md={6} l={3} key={project.id}>
               <ProjectCard
+                image={project.image}
                 title={project.title}
                 description={project.description}
                 tags={project.tags}
