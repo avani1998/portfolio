@@ -17,9 +17,9 @@ function Container() {
       <Router>
         <Navbar />
         <About />
-        <Education />
-        <Work />
         <Projects />
+        <Work />
+        <Education />
         <Skills />
         <Routes>
           {/* <Route path="/" element={<Home />} />
