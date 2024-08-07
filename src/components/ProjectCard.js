@@ -8,20 +8,9 @@ import {
   Chip,
   Box,
 } from "@mui/material";
+import tagColors from "../constants/tagColors";
 
 const ProjectCard = ({ image, title, description, tags, link }) => {
-  const tagColors = {
-    Python: "#DBEDDC",
-    Java: "#EFDFDA",
-    Javascript: "#E8DFEE",
-    React: "#D4E6EE",
-    CSS: "#d7e3fc",
-    C: "#e2e2e2",
-    Docker: "#fcf4dd",
-    Postman: "#fce1e4",
-    R: "#CAE7E3",
-  };
-  //#CCD4BF,#E7CBA9,#EEBAB2,#F5F3E7,#F5E2E4,#F7F6CF,#BEB4C5,#E5DBD9, #CAE7E3
   return (
     <Card
       sx={{
@@ -61,10 +50,10 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
                 size="small"
                 sx={{
                   backgroundColor: tagColors[tag],
-                  borderRadius: "0px",
-                  marginRight: "7px",
-                  height: "15px",
-                  fontSize: "0.7rem",
+                  borderRadius: "16px",
+                  marginRight: "10px",
+                  height: "21px",
+                  fontSize: "0.8rem",
                   color: " rgb(55, 53, 47)",
                 }}
               />

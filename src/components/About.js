@@ -17,19 +17,19 @@ function About() {
       <h1 class="name">Avani Vaishnav</h1>
       <blockquote class="quote-intro">
         <p>
-          I'm a Computer Engineering graduate student at New York University,
-          actively pursuing my Master's degree with an expected graduation in
-          May 2024. I'm especially passionate about the weaving of analytical,
-          rigorous code together with meaningful real-world narratives.
+          A passionate Data Scientist with a Master's degree in Computer
+          Engineering from New York University. With a proven track record in
+          developing data-driven solutions, I thrive in environments that
+          challenge my analytical and technical skills.
         </p>
         <p>
-          I am excited to embark on a new journey as a Data Analyst Intern at
+          {/* I am excited to embark on a new journey as a Data Analyst Intern at
           Massachusetts General Hospital, where I will leverage my analytical
           skills to assess signals, identify discrepancies, and contribute to
           effective problem-solving. Proficient in programming languages and
           tools such as Python, Java, C, and more, I am eager to contribute my
           skills to innovative projects and connect with like-minded individuals
-          in the tech community.
+          in the tech community. */}
         </p>
       </blockquote>
     </div>

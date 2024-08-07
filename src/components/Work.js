@@ -5,10 +5,34 @@ import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
-
+import { Box, Chip } from "@mui/material";
+import tagColors from "../constants/tagColors";
 import "../styles/Work.css";
 
 function Work() {
+  const mgb = ["Python", "SQL", "AWS", "Healthcare Data Analysis"];
+  const nyu = ["Excel", "Python", "Web Scraping"];
+  const mouumint = [
+    "Python",
+    "Javascript",
+    "ReactJS",
+    "NodeJS",
+    "CSS",
+    "Solana",
+    "Blockchain data",
+    "API",
+    "Postman",
+    "HTML",
+  ];
+  const philips = [
+    "Python",
+    "Classification",
+    "Pipeline",
+    "Data QA",
+    "Neural Network",
+    "Healthcare Data Analysis",
+  ];
+
   return (
     <section>
       <h3 class="w-subheading">Work Experience</h3>
@@ -29,21 +53,60 @@ function Work() {
           <TimelineContent>
             <div class="work-item">
               <div>
-                <p class="w-heading1">Mass General Brigham</p>
-                <p class="w-heading1-subheading">Data Analyst</p>
+                <p class="w-heading1">
+                  Massachusetts General Hospital - Mass General Brigham
+                </p>
+                <p class="w-heading1-subheading">Jr. Data Scientist</p>
               </div>
               <div class="w-right-allign">
-                <p class="w-date">Jan 2024- Present</p>
+                <p class="w-date">Jan 2024 - May 2024</p>
                 <p class="w-city">New York City</p>
               </div>
             </div>
             <ul className="work-description">
               <li>
-                Utilized strong analytical skills to assess signals and identify
-                discrepancies, contributing to effective problem-solving and
-                decision-making.
+                Achieved 15% reduction in patient readmission rates through the
+                development of predictive models using logistic regression and
+                random forest algorithms, enhancing patient care quality for
+                over 20,000 customers.
+              </li>
+              <li>
+                Developed interactive Tableau dashboards to visualize patient
+                readmission patterns and identify key contributing factors
+              </li>
+              <li>
+                Constructed SQL queries and developed stored procedures to
+                extract and transform data for analysis and reporting.
+              </li>
+              <li>
+                Enhanced data-driven decision-making by 29% through the
+                efficient analysis of 7 million healthcare records using Amazon
+                Redshift, resulting in actionable insights
               </li>
             </ul>
+            <Box
+              sx={{
+                display: "flex",
+                flexWrap: "wrap",
+                padding: "-10px",
+              }}
+            >
+              {mgb.map((tag, index) => (
+                <Chip
+                  key={index}
+                  label={tag}
+                  size="small"
+                  sx={{
+                    backgroundColor: tagColors[tag],
+                    borderRadius: "16px",
+                    marginRight: "10px",
+                    height: "21px",
+                    fontSize: "0.8rem",
+                    color: " rgb(55, 53, 47)",
+                  }}
+                />
+              ))}
+            </Box>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -57,7 +120,9 @@ function Work() {
                 <p class="w-heading1">
                   ECE Research Center (New York University)
                 </p>
-                <p class="w-heading1-subheading">Graduate Assistant</p>
+                <p class="w-heading1-subheading">
+                  Data Analysis Graduate Assistant
+                </p>
               </div>
               <div class="w-right-allign">
                 <p class="w-date">Sept 2023 - Dec 2023</p>
@@ -66,14 +131,37 @@ function Work() {
             </div>
             <ul className="work-description">
               <li>
-                Conducted web-scraping on multiple cybersecurity conference
-                websites to extract author names, emails, and affiliations
+                Optimized operations by cutting manual effort by 90% by
+                automating data collection and processing via web scraping.
               </li>
               <li>
-                Managed HotCRP paper review platform and maintained the CSAW
-                website.
+                Organized raw data into Excel for efficient use and accurate
+                representation, facilitating effective communication.
               </li>
             </ul>
+            <Box
+              sx={{
+                display: "flex",
+                flexWrap: "wrap",
+                padding: "-10px",
+              }}
+            >
+              {nyu.map((tag, index) => (
+                <Chip
+                  key={index}
+                  label={tag}
+                  size="small"
+                  sx={{
+                    backgroundColor: tagColors[tag],
+                    borderRadius: "16px",
+                    marginRight: "10px",
+                    height: "21px",
+                    fontSize: "0.8rem",
+                    color: " rgb(55, 53, 47)",
+                  }}
+                />
+              ))}
+            </Box>
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -85,30 +173,54 @@ function Work() {
             <div class="work-item">
               <div>
                 <p class="w-heading1">Monumint</p>
-                <p class="w-heading1-subheading">Full-Stack Intern</p>
+                <p class="w-heading1-subheading">Data Analyst</p>
               </div>
               <div class="w-right-allign">
-                <p class="w-date">Jan 2022 - Jun 2023</p>
-                <p class="w-city">Bangalore, India</p>
+                <p class="w-date">March 2021 - June 2023</p>
+                <p class="w-city">USA</p>
               </div>
             </div>
             <ul className="work-description">
               <li>
-                Developed and implemented Ethereum-based NFT art sales system,
-                generating 10,000 transactions in the first month.
+                Analysed 10,000 Ethereum NFT sales transactions to extract
+                insights on user behavior and transaction patterns.
               </li>
               <li>
-                Implemented a Merkle Tree-based feature to drive the creation of
-                dynamic whitelists for conducting pre-sales.
+                Implemented data parsing techniques to process ERC1155 token
+                data, increasing token support on the website by 50%.
               </li>
               <li>
-                Optimized gas usage with ERC721A, enabling cost-effective NFT
-                collection creation for artists.
+                Collaborated with stakeholders to gather data requirements and
+                transform them into actionable insights, enhancing
+                decision-making processes.
               </li>
             </ul>
+            <Box
+              sx={{
+                display: "flex",
+                flexWrap: "wrap",
+                padding: "-10px",
+              }}
+            >
+              {mouumint.map((tag, index) => (
+                <Chip
+                  key={index}
+                  label={tag}
+                  size="small"
+                  sx={{
+                    backgroundColor: tagColors[tag],
+                    borderRadius: "16px",
+                    marginRight: "10px",
+                    height: "21px",
+                    fontSize: "0.8rem",
+                    color: " rgb(55, 53, 47)",
+                  }}
+                />
+              ))}
+            </Box>
           </TimelineContent>
         </TimelineItem>
-        <TimelineItem>
+        {/* <TimelineItem>
           <TimelineSeparator>
             <TimelineDot style={{ backgroundColor: "rgb(55, 53, 47)" }} />
             <TimelineConnector style={{ backgroundColor: "rgb(55, 53, 47)" }} />
@@ -137,7 +249,7 @@ function Work() {
               </li>
             </ul>
           </TimelineContent>
-        </TimelineItem>
+        </TimelineItem> */}
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot style={{ backgroundColor: "rgb(55, 53, 47)" }} />
@@ -146,27 +258,50 @@ function Work() {
             <div class="work-item">
               <div>
                 <p class="w-heading1">Philips Research</p>
-                <p class="w-heading1-subheading">Intern</p>
+                <p class="w-heading1-subheading">Data Science Intern</p>
               </div>
               <div class="w-right-allign">
                 <p class="w-date">Jun 2021 - Aug 2021</p>
-                <p class="w-city">Bangalore, India</p>
+                <p class="w-city">USA</p>
               </div>
             </div>
             <ul className="work-description">
               <li>
-                Utilized YOLO-v3 to detect and annotate 60k images in a medical
-                dataset, reducing need for manual annotation by 70%.
+                Performed data validation, profiling, auditing, and data
+                cleansing activities to ensure data quality.
               </li>
               <li>
-                Implemented ResNet-50 neural network to classify annotated and
-                cropped images.
+                Reduced manual annotation by 89% by utilizing YOLO-v3 to detect
+                and annotate 60k images in medical dataset.
               </li>
               <li>
-                Set up hybrid pipeline for detection and classification of
+                Established hybrid pipeline for detection & classification of
                 ultrasound images increasing accuracy from 67% to 72.4%.
               </li>
             </ul>
+            <Box
+              sx={{
+                display: "flex",
+                flexWrap: "wrap",
+                padding: "-10px",
+              }}
+            >
+              {philips.map((tag, index) => (
+                <Chip
+                  key={index}
+                  label={tag}
+                  size="small"
+                  sx={{
+                    backgroundColor: tagColors[tag],
+                    borderRadius: "16px",
+                    marginRight: "10px",
+                    height: "21px",
+                    fontSize: "0.8rem",
+                    color: " rgb(55, 53, 47)",
+                  }}
+                />
+              ))}
+            </Box>
           </TimelineContent>
         </TimelineItem>
       </Timeline>
