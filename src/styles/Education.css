@@ -18,7 +18,7 @@
 .e-heading1-subheading {
   color: rgb(89, 89, 89);
   font-size: 16px;
-  margin: 0px 0px 35px 0px;
+  margin: -1px 0px 2px 0px;
 }
 .right-allign {
   text-align: right;
@@ -32,4 +32,15 @@
   color: rgb(89, 89, 89);
   font-size: 16px;
   text-align: right;
+}
+
+.courses-list {
+  background: rgb(247, 246, 243);
+  border-radius: 15px;
+  padding: 12px 10px 10px 30px;
+  /* margin: 12px 10px 12px 10px; */
+  margin: 12px 0px;
+  font-family: "Courier Prime", monospace;
+  font-size: 13px;
+  width: 100%;
 }

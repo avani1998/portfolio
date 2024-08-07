@@ -1,0 +1,11 @@
+.s-heading {
+  font-size: 15px;
+  margin: 0px 0px 5px 0px;
+  font-family: "Courier Prime", monospace;
+}
+.s-subheading {
+  color: rgb(89, 89, 89);
+  font-size: 15px;
+  margin: 5px 0px 20px 0px;
+  font-family: "Courier Prime", monospace;
+}

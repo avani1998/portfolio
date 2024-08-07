@@ -1,24 +1,30 @@
 import React from "react";
 import "../styles/Headings.css";
-import { Link as RouterLink } from "react-router-dom";
 import { Grid } from "@mui/material";
 import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
     image: "/map.png",
-    title: "Interrilato",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
-    tags: ["React", "Javascript", "CSS"],
-    link: "https://github.com/avani1998/Interrilato",
+    title: "Interrilato: Ecploring Data Relationships",
+    description:
+      "This project analyzes socioeconomic factors like literacy rates, poverty rates, unemployment rates, and crime contributions across Indian states and union territories to uncover patterns and insights, aiding in understanding regional socioeconomic dynamics. ",
+    tags: ["Python", "GeoSpatial"],
+    link: "https://github.com/avani1998/Interrilato/tree/main",
   },
   {
     image: "/airbnb.png",
     title: "Airbnb Data Analysis",
     description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. fermentum orci. Donec scelerisque lectus et est dapibus suscipit. Donec volutpat scelerisque ex,",
-    tags: ["Python"],
+      "This project, conducted on Google Colab, analyzes a dataset focusing on Airbnb listings. Key steps include data cleaning, visualization, hypothesis testing, and K-Means clustering of GPS locations.",
+    tags: ["Python", "EDA"],
     link: "https://github.com/avani1998/Airbnb-Data-Analysis",
+  },
+  {
+    image: "/website.png",
+    title: "Portfolio",
+    description: "My perosnal website",
+    tags: ["React", "HTML", "CSS", "JavaScript"],
   },
 ];
 function Projects() {
