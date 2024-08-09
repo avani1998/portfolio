@@ -25,5 +25,7 @@ const tagColors = {
   Classification: "#F5E8DD",
   Pipeline: "#DFCCFB",
   "Data QA": "#C4C1A4",
+  Airflow: "#F9F9E0",
+  Spark: "#E7E8D8",
 };
 export default tagColors;

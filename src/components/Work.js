@@ -177,7 +177,7 @@ function Work() {
               </div>
               <div class="w-right-allign">
                 <p class="w-date">March 2021 - June 2023</p>
-                <p class="w-city">USA</p>
+                <p class="w-city"></p>
               </div>
             </div>
             <ul className="work-description">
@@ -262,7 +262,7 @@ function Work() {
               </div>
               <div class="w-right-allign">
                 <p class="w-date">Jun 2021 - Aug 2021</p>
-                <p class="w-city">USA</p>
+                <p class="w-city"></p>
               </div>
             </div>
             <ul className="work-description">
