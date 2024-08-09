@@ -6,7 +6,7 @@ import ProjectCard from "./ProjectCard";
 const projects = [
   {
     image: "/map.png",
-    title: "Interrilato: Ecploring Data Relationships",
+    title: "Interrilato: Exploring Data Relationships",
     description:
       "This project analyzes socioeconomic factors like literacy rates, poverty rates, unemployment rates, and crime contributions across Indian states and union territories to uncover patterns and insights, aiding in understanding regional socioeconomic dynamics. ",
     tags: ["Python", "GeoSpatial"],
@@ -25,6 +25,14 @@ const projects = [
     title: "Portfolio",
     description: "My perosnal website",
     tags: ["React", "HTML", "CSS", "JavaScript"],
+  },
+  {
+    image: "/chess.png",
+    title: "Chess Insights: Big Data Analytics and Visualization",
+    description:
+      "Engineered a big data chess project leveraging Apache Airflow, Spark, AWS, and Docker to integrate data from chess.com APIs and .pgn files. Resulted in a scalable interactive web app featuring real-time visualizations and providing comprehensive insights into player statistics and game progressions.",
+    tags: ["Python", "Airflow", "AWS", "Spark", "Docker", "API"],
+    link: "",
   },
 ];
 function Projects() {

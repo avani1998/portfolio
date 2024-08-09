@@ -51,7 +51,8 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
                 sx={{
                   backgroundColor: tagColors[tag],
                   borderRadius: "16px",
-                  marginRight: "10px",
+                  marginRight: "8px",
+                  marginBottom: "5px",
                   height: "21px",
                   fontSize: "0.8rem",
                   color: " rgb(55, 53, 47)",
@@ -59,7 +60,7 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
               />
             ))}
           </Box>
-          <Typography variant="body2" color="text.secondary">
+          <Typography variant="body2" color="text.secondary" marginTop="10px">
             {description}
           </Typography>
         </CardContent>

@@ -43,7 +43,7 @@ function Navbar() {
           id="resume"
           onClick={() =>
             handleOpenLink(
-              "https://drive.google.com/file/d/1utdcErZio1WunCrEi-n1fsOe8pO92moz/view?usp=sharing"
+              "https://drive.google.com/file/d/1NojsVrIh-RIeLA3uuMmp-CFSUsgrytU4/view?usp=sharing"
             )
           }
         >

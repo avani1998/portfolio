@@ -1,5 +1,4 @@
 import React from "react";
-import { Box, Chip } from "@mui/material";
 import "../styles/Skills.css";
 
 function Skills() {
@@ -117,6 +116,13 @@ function Skills() {
       <div>
         <p class="s-heading">Business Intelligence Tools</p>
         <p class="s-subheading">Tableau, Power BI (DAX), Adobe Analytics</p>
+      </div>
+
+      <div>
+        <p class="s-heading">Microsoft Excel Skills</p>
+        <p class="s-subheading">
+          SUM, IF, VLOOKUP, DATE and TEXT functions,PivotTables, Macros, Charts
+        </p>
       </div>
 
       <div>
