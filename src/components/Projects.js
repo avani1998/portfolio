@@ -16,15 +16,23 @@ const projects = [
     image: "/airbnb.png",
     title: "Airbnb Data Analysis",
     description:
-      "This project, conducted on Google Colab, analyzes a dataset focusing on Airbnb listings. Key steps include data cleaning, visualization, hypothesis testing, and K-Means clustering of GPS locations.",
+      "This project analyzes Airbnb listings. Key steps include data cleaning, visualization, hypothesis testing, and K-Means clustering of GPS locations.",
     tags: ["Python", "EDA"],
     link: "https://github.com/avani1998/Airbnb-Data-Analysis",
   },
   {
-    image: "/website.png",
-    title: "Portfolio",
-    description: "My perosnal website",
-    tags: ["React", "HTML", "CSS", "JavaScript"],
+    image: "/backdoor.png",
+    title: "Backdoor Attacks in Neural Networks: Pruning Defenses Explored",
+    description:
+      "Explored the impact of backdoor attacks on deep neural networks (DNNs) and implemented a pruning-based defense using Python, TensorFlow, and Keras. The project focuses on identifying and removing inactive neurons triggered by adversarial data, enhancing model security without significantly compromising performance.",
+    tags: [
+      "Python",
+      "Machine Learning",
+      "DNN",
+      "Neural Networks",
+      "TensorFlow",
+      "Keras",
+    ],
   },
   {
     image: "/chess.png",
@@ -33,6 +41,28 @@ const projects = [
       "Engineered a big data chess project leveraging Apache Airflow, Spark, AWS, and Docker to integrate data from chess.com APIs and .pgn files. Resulted in a scalable interactive web app featuring real-time visualizations and providing comprehensive insights into player statistics and game progressions.",
     tags: ["Python", "Airflow", "AWS", "Apache Spark", "Docker", "API"],
     link: "",
+  },
+  {
+    image: "/ivp.png",
+    title: "Image and Video Processing",
+    description:
+      "Implemented advanced image and video processing techniques, including 2D convolution for noise reduction and edge detection, multi-resolution image representation using pyramid and wavelet transforms, and feature-based image stitching. Developed algorithms for contrast enhancement, geometric transformations, and video motion estimation, utilizing Python for practical applications in image registration and video stabilization.",
+    tags: [
+      "Python",
+      "CNN",
+      "Image Processing",
+      "Segmentation",
+      "Machine Learning",
+    ],
+    link: "https://github.com/avani1998/image-and-video-processing/tree/main",
+  },
+  {
+    image: "/r_programming.png",
+    title: "R Programming",
+    description:
+      "Implemented advanced image and video processing techniques, including 2D convolution for noise reduction and edge detection, multi-resolution image representation using pyramid and wavelet transforms, and feature-based image stitching. Developed algorithms for contrast enhancement, geometric transformations, and video motion estimation, utilizing Python for practical applications in image registration and video stabilization.",
+    tags: ["R", "Data Cleaning"],
+    link: "https://github.com/avani1998/r-programming-basic-to-advanced",
   },
 ];
 function Projects() {

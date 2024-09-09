@@ -86,6 +86,11 @@ function Work() {
                 efficient analysis of 7 million healthcare records using Amazon
                 Redshift, resulting in actionable insights
               </li>
+              <li>
+                Collaborated with cross-functional teams to develop reports and
+                track patient data, ensuring compliance with healthcare
+                regulations and improving data accuracy and accessibility.
+              </li>
             </ul>
             <Box
               sx={{

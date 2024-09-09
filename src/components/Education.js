@@ -51,7 +51,7 @@ function Education() {
           <li>ISED2: Cloud Computing</li>
           <li>IS33: Data Structures</li>
           <li>IS71: Data Mining</li>
-          <li>IS63: Java and J2EEs</li>
+          <li>IS63: Java and J2EE</li>
         </ul>
       </div>
     </section>

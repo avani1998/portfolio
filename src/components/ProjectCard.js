@@ -67,6 +67,7 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
             variant="body2"
             color="var(--font-color)"
             marginTop="10px"
+            sx={{ fontSize: "1.02rem" }}
           >
             {description}
           </Typography>
