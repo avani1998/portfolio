@@ -104,7 +104,7 @@ function Work() {
                     borderRadius: "16px",
                     marginRight: "10px",
                     height: "21px",
-                    fontSize: "0.8rem",
+                    fontSize: "1.09rem",
                     color: " rgb(55, 53, 47)",
                     fontWeight: "var(--chip-font-weight)",
                   }}
@@ -162,7 +162,7 @@ function Work() {
                     borderRadius: "16px",
                     marginRight: "10px",
                     height: "21px",
-                    fontSize: "0.8rem",
+                    fontSize: "1.09rem",
                     color: " rgb(55, 53, 47)",
                     fontWeight: "var(--chip-font-weight)",
                   }}
@@ -221,7 +221,7 @@ function Work() {
                     borderRadius: "16px",
                     marginRight: "10px",
                     height: "21px",
-                    fontSize: "0.8rem",
+                    fontSize: "1.09rem",
                     color: " rgb(55, 53, 47)",
                     fontWeight: "var(--chip-font-weight)",
                   }}
@@ -306,7 +306,7 @@ function Work() {
                     borderRadius: "16px",
                     marginRight: "10px",
                     height: "21px",
-                    fontSize: "0.8rem",
+                    fontSize: "1.09rem",
                     color: " rgb(55, 53, 47)",
                     fontWeight: "var(--chip-font-weight)",
                   }}

@@ -32,8 +32,20 @@
   /* background: rgb(247, 246, 243); */
   display: flex;
   align-items: center; /* Center vertically */
+  justify-content: space-around;
   height: 75vh;
   padding: 0px 20px 0px 20px;
   border-radius: 15px;
   margin: 0px 0px 20px 0px auto;
+}
+
+.image-container {
+  margin-right: 50px;
+  margin-left: 20px;
+}
+.profile-pic {
+  width: 250px; /* Adjust the size */
+  height: 250px; /* Make it a square */
+  border-radius: 50%; /* Make the image circular */
+  border: 5px solid var(--font-color);
 }

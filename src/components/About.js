@@ -4,6 +4,13 @@ import "../styles/About.css";
 function About() {
   return (
     <div class="background">
+      <div className="image-container">
+        <img
+          src="/headshot.jpeg"
+          alt="Avani Vaishnav"
+          className="profile-pic"
+        />
+      </div>
       <div class="cont">
         <h3 class="intro">
           Hi

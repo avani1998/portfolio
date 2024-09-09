@@ -56,8 +56,8 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
                   marginRight: "8px",
                   marginBottom: "5px",
                   height: "21px",
-                  fontSize: "0.8rem",
-                  color: " rgb(55, 53, 47)", //No change
+                  fontSize: "1.09rem",
+                  color: "rgb(55, 53, 47)", //No change
                   fontWeight: "var(--chip-font-weight)",
                 }}
               />
