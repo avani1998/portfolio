@@ -28,5 +28,14 @@ const tagColors = {
   Airflow: "#F9F9E0",
   "Apache Spark": "#dfe7fd", //"#E7E8D8",
   Solana: "#d8e2dc",
+  "Machine Learning": "#bee1e6",
+  DNN: "#e3d5ca",
+  "Neural Networks": "#f5efff",
+  TensorFlow: "#fcd5ce",
+  Keras: "#f9e5d8",
+  CNN: "#dcedc1",
+  "Image Processing": "#f2ebfb",
+  Segmentation: "#c2e2ea",
+  "Data Cleaning": "#FFEBD4",
 };
 export default tagColors;
