@@ -9,6 +9,7 @@ function About() {
           Hi
           <img
             src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
+            alt="gif of waving hand emoji"
             width="40px"
             frameBorder="0"
             class="giphy-embed"

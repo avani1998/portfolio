@@ -2,10 +2,11 @@
   font-size: 23px;
   margin-top: 10px;
   margin-left: 10px;
+  color: var(--font-color);
 }
 .name {
   font-family: "Playfair Display", serif;
-  color: rgb(55, 53, 47);
+  color: var(--font-color);
   font-size: 4rem;
   margin: -20px 0px 0px 5px;
 }
@@ -17,12 +18,13 @@
 }
 .quote-intro {
   display: block;
-  border-left: 3px solid rgb(55, 53, 47);
+  border-left: 3px solid var(--font-color);
   padding: 0px 12px;
   width: 100%;
   font-size: 18px;
   line-height: 1.5;
   margin: 18px 10px 20px 5px;
+  color: var(--font-color);
   /* margin-bottom: 20px; */
   /* margin-left: 10px; */
 }

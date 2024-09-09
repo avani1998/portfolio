@@ -1,9 +1,10 @@
 import React from "react";
+import "../styles/Footer.css";
 
 function Footer() {
   return (
     <div>
-      <footer>
+      <footer className="designed">
         Designed and developed by Avani Vaishnav
         <p>
           <small>

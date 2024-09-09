@@ -1,22 +1,16 @@
 import "./App.css";
-// import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-// import Navbar from "./components/Navbar";
 import Container from "./components/Container";
-import ParticleComponent from "./components/ParticleComponent";
+import useLocalStorage from "use-local-storage";
+// import ParticleComponent from "./components/ParticleComponent";
 
 function App() {
+  const preference = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const [isDark, setIsDark] = useLocalStorage("isDark", preference); //change preference to false
   return (
-    <div className="App">
-      <Container />
-      <ParticleComponent />
-      {/* <Router> */}
-      {/* <Navbar /> */}
-      {/* <Routes> */}
-      {/* <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/experience" element={<Experience />} /> */}
-      {/* </Routes> */}
-      {/* </Router> */}
+    <div className="App" data-theme={isDark ? "dark" : "light"}>
+      <div className="App-container">
+        <Container isDark={isDark} setIsDark={setIsDark} />
+      </div>
     </div>
   );
 }

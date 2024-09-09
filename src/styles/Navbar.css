@@ -6,12 +6,12 @@ nav {
 .container {
   width: 800px;
   margin: 0 auto;
-  background-color: transparent;
+  background-color: var(--background-color);
 }
 .links {
-  background-color: rgb(55, 53, 47);
-  font-family: "Courier Prime", monospace;
-  color: #fff;
+  background-color: var(--font-color);
+  font-family: var(--font-family);
+  color: var(--background-color) /* #fff*/;
   padding: 10px;
   border: none;
   text-align: center;
@@ -25,11 +25,11 @@ nav {
   cursor: pointer;
 }
 .links:visited {
-  background-color: rgb(55, 53, 47);
+  background-color: var(--font-color);
   text-decoration: none;
 }
 .links:hover {
-  background-color: rgb(89, 89, 89);
+  background-color: var(--subheading-color);
   text-decoration: none;
   /* background-color: rgb(140, 136, 115); */
 }

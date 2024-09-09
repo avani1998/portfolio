@@ -2,13 +2,15 @@
   font-size: 30px;
   margin: 50px 0px 16px 0px;
   font-family: "Playfair Display", serif;
+  color: var(--font-color);
 }
 .heading1 {
   font-size: 16px;
   margin: 15px 10px 8px 0px;
+  color: var(--font-color);
 }
 .heading1-subheading {
-  color: rgb(89, 89, 89);
+  color: var(--subheading-color);
   font-size: 16px;
   margin: 0px 0px 35px 0px;
 }

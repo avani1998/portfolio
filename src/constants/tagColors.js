@@ -26,6 +26,7 @@ const tagColors = {
   Pipeline: "#DFCCFB",
   "Data QA": "#C4C1A4",
   Airflow: "#F9F9E0",
-  Spark: "#E7E8D8",
+  "Apache Spark": "#dfe7fd", //"#E7E8D8",
+  Solana: "#d8e2dc",
 };
 export default tagColors;

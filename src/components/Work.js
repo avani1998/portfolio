@@ -8,6 +8,7 @@ import TimelineDot from "@mui/lab/TimelineDot";
 import { Box, Chip } from "@mui/material";
 import tagColors from "../constants/tagColors";
 import "../styles/Work.css";
+import "../styles/Headings.css";
 
 function Work() {
   const mgb = ["Python", "SQL", "AWS", "Healthcare Data Analysis"];
@@ -35,7 +36,7 @@ function Work() {
 
   return (
     <section>
-      <h3 class="w-subheading">Work Experience</h3>
+      <h3 class="subheading">Work Experience</h3>
       <Timeline
         sx={{
           [`& .${timelineItemClasses.root}:before`]: {
@@ -47,8 +48,10 @@ function Work() {
       >
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot style={{ backgroundColor: "rgb(55, 53, 47)" }} />
-            <TimelineConnector style={{ backgroundColor: "rgb(55, 53, 47)" }} />
+            <TimelineDot style={{ backgroundColor: "var(--font-color)" }} />
+            <TimelineConnector
+              style={{ backgroundColor: "var(--font-color)" }}
+            />
           </TimelineSeparator>
           <TimelineContent>
             <div class="work-item">
@@ -103,6 +106,7 @@ function Work() {
                     height: "21px",
                     fontSize: "0.8rem",
                     color: " rgb(55, 53, 47)",
+                    fontWeight: "var(--chip-font-weight)",
                   }}
                 />
               ))}
@@ -111,8 +115,10 @@ function Work() {
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot style={{ backgroundColor: "rgb(55, 53, 47)" }} />
-            <TimelineConnector style={{ backgroundColor: "rgb(55, 53, 47)" }} />
+            <TimelineDot style={{ backgroundColor: "var(--font-color)" }} />
+            <TimelineConnector
+              style={{ backgroundColor: "var(--font-color)" }}
+            />
           </TimelineSeparator>
           <TimelineContent>
             <div class="work-item">
@@ -158,6 +164,7 @@ function Work() {
                     height: "21px",
                     fontSize: "0.8rem",
                     color: " rgb(55, 53, 47)",
+                    fontWeight: "var(--chip-font-weight)",
                   }}
                 />
               ))}
@@ -166,8 +173,10 @@ function Work() {
         </TimelineItem>
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot style={{ backgroundColor: "rgb(55, 53, 47)" }} />
-            <TimelineConnector style={{ backgroundColor: "rgb(55, 53, 47)" }} />
+            <TimelineDot style={{ backgroundColor: "var(--font-color)" }} />
+            <TimelineConnector
+              style={{ backgroundColor: "var(--font-color)" }}
+            />
           </TimelineSeparator>
           <TimelineContent>
             <div class="work-item">
@@ -214,6 +223,7 @@ function Work() {
                     height: "21px",
                     fontSize: "0.8rem",
                     color: " rgb(55, 53, 47)",
+                    fontWeight: "var(--chip-font-weight)",
                   }}
                 />
               ))}
@@ -252,7 +262,7 @@ function Work() {
         </TimelineItem> */}
         <TimelineItem>
           <TimelineSeparator>
-            <TimelineDot style={{ backgroundColor: "rgb(55, 53, 47)" }} />
+            <TimelineDot style={{ backgroundColor: "var(--font-color)" }} />
           </TimelineSeparator>
           <TimelineContent>
             <div class="work-item">
@@ -298,6 +308,7 @@ function Work() {
                     height: "21px",
                     fontSize: "0.8rem",
                     color: " rgb(55, 53, 47)",
+                    fontWeight: "var(--chip-font-weight)",
                   }}
                 />
               ))}
