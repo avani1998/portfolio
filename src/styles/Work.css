@@ -1,44 +1,42 @@
-.w-subheading {
-  font-size: 30px;
-  margin: 50px 0px 16px 0px;
-  font-family: "Playfair Display", serif;
-}
 .w-heading1 {
   font-size: 17px;
   margin: 0px 0px 0px 0px;
-  font-family: "Courier Prime", monospace;
+  font-family: var(--font-family);
+  color: var(--font-color);
 }
 .w-heading1-subheading {
-  color: rgb(89, 89, 89);
+  color: var(--subheading-color);
   font-size: 16px;
   margin: 0px 0px 0px 0px;
-  font-family: "Courier Prime", monospace;
+  font-family: var(--font-family);
 }
 .work-item {
   display: flex;
   justify-content: space-between;
 }
 .w-right-allign {
-  font-family: "Courier Prime", monospace;
+  font-family: var(--font-family);
   text-align: right;
 }
 .w-date {
   font-size: 15px;
   margin-top: 0px;
   margin-bottom: 0px;
+  color: var(--font-color);
 }
 .w-city {
-  color: rgb(89, 89, 89);
+  color: var(--subheading-color);
   font-size: 15px;
   text-align: right;
-  margin: 0px 0px 0px 0px;
+  margin: 0px 0px;
 }
 .work-description {
   list-style-type: disc;
-  background: rgb(247, 246, 243);
+  background: var(--description-color);
   border-radius: 15px;
   padding: 12px 10px 10px 30px;
   margin: 12px 10px 12px 10px;
-  font-family: "Courier Prime", monospace;
+  font-family: var(--font-family);
   font-size: 14px;
+  color: var(--font-color);
 }

@@ -1,0 +1,9 @@
+.designed {
+  margin-top: 20px;
+  margin-bottom: 0px;
+  color: var(--font-color);
+}
+.designed p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}

@@ -31,7 +31,7 @@ const projects = [
     title: "Chess Insights: Big Data Analytics and Visualization",
     description:
       "Engineered a big data chess project leveraging Apache Airflow, Spark, AWS, and Docker to integrate data from chess.com APIs and .pgn files. Resulted in a scalable interactive web app featuring real-time visualizations and providing comprehensive insights into player statistics and game progressions.",
-    tags: ["Python", "Airflow", "AWS", "Spark", "Docker", "API"],
+    tags: ["Python", "Airflow", "AWS", "Apache Spark", "Docker", "API"],
     link: "",
   },
 ];

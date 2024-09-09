@@ -19,11 +19,13 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
         boxShadow: "none",
         margin: "auto",
         margin: "5px",
+        backgroundColor: "var(--background-color)",
+        color: "var(--font-color)",
         "&:hover": {
-          boxShadow: "0 4px 10px 0 rgba(0,0,0,0.10)",
+          boxShadow: "0 4px 10px 0 var(--shadow-color)",
           transform: "scale(1.02)",
-          background: "rgb(247, 246, 243)",
-          borderRadius: "0px",
+          background: "var(--description-color)",
+          borderRadius: "15px",
         },
       }}
     >
@@ -55,12 +57,17 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
                   marginBottom: "5px",
                   height: "21px",
                   fontSize: "0.8rem",
-                  color: " rgb(55, 53, 47)",
+                  color: " rgb(55, 53, 47)", //No change
+                  fontWeight: "var(--chip-font-weight)",
                 }}
               />
             ))}
           </Box>
-          <Typography variant="body2" color="text.secondary" marginTop="10px">
+          <Typography
+            variant="body2"
+            color="var(--font-color)"
+            marginTop="10px"
+          >
             {description}
           </Typography>
         </CardContent>

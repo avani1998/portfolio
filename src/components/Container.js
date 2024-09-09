@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Container.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes } from "react-router-dom";
 
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -10,22 +10,17 @@ import Work from "./Work";
 import Projects from "./Projects";
 import Skills from "./Skills";
 
-function Container() {
+function Container({ isDark, setIsDark }) {
   return (
-    <div class="container">
-      {/* <Navbar /> */}
+    <div className="container">
       <Router>
-        <Navbar />
+        <Navbar isDark={isDark} setIsDark={setIsDark} />
         <About />
         <Projects />
         <Work />
         <Education />
         <Skills />
-        <Routes>
-          {/* <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/experience" element={<Experience />} /> */}
-        </Routes>
+        {/* <Routes></Routes> */}
         <Footer />
       </Router>
     </div>
