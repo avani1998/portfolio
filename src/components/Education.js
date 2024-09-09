@@ -45,14 +45,13 @@ function Education() {
       <div class="courses">
         <p class="e-heading1">Courses</p>
         <ul class="courses-list">
-          <li>CS-GY 6513: Big Data</li>
-          <li>ECE-GY 7123: Deep Learning</li>
-          <li>TECH-GB 9383: R Programming For Data</li>
-          <li>ECE-GY 6143: Machine Learning </li>
-          <li>ECE-GY 9163: Machine Learning for Cybersecurity</li>
-          <li>ECE-GY 6123: Image and Video Processing</li>
-          <li>ECE-GY 6353: Internet Architecture and Protocols</li>
-          <li>ECE-GY 6383: Network Security</li>
+          <li>IS54: Database Management Systems</li>
+          <li>ISEE1 Data Science</li>
+          <li>IS31: Statistics</li>
+          <li>ISED2: Cloud Computing</li>
+          <li>IS33: Data Structures</li>
+          <li>IS71: Data Mining</li>
+          <li>IS63: Java and J2EEs</li>
         </ul>
       </div>
     </section>
