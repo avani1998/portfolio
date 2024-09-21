@@ -1,5 +1,5 @@
 const tagColors = {
-  Python: "#DBEDDC",
+  Python: "#cdeac0",
   Java: "#EFDFDA",
   Javascript: "#E8DFEE",
   React: "#D4E6EE",
@@ -37,5 +37,17 @@ const tagColors = {
   "Image Processing": "#f2ebfb",
   Segmentation: "#c2e2ea",
   "Data Cleaning": "#FFEBD4",
+  RDBMS: "#bde0fe",
+  JSON: "#dbcdf0",
+  MapReduce: "#afd3ed",
+  Hadoop: "#9fbdf5",
+  "GeoSpatial Data": "#eff7f6",
+  "Spatial Analysis": "#fad2e1",
+  "Hypothesis Testing": "#DBEDDC",
+  Clustering: "#efcfe3",
+  ggplot: "#eec6ca",
+  Packages: "#bad7f2",
+  YOLO: "#ded6d1",
+  RNN: "#a7bed3",
 };
 export default tagColors;
