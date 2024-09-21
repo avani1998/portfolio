@@ -1,7 +1,20 @@
 import React from "react";
 import "../styles/Education.css";
+import TimelineDot from "@mui/lab/TimelineDot";
+import TagChips from "./TagChip";
 
 function Education() {
+  const bd = [
+    "RDBMS",
+    "Docker",
+    "SQL",
+    "JSON",
+    "MapReduce",
+    "Hadoop",
+    "Apache Spark",
+  ];
+  const r_p = ["R", "Packages", "ggplot"];
+  const dl = ["CNN", "RNN", "YOLO"];
   return (
     <section class="education">
       <h3 class="subheading">Education</h3>

@@ -5,15 +5,14 @@ import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
-import { Box, Chip } from "@mui/material";
-import tagColors from "../constants/tagColors";
+import TagChips from "../components/TagChip";
 import "../styles/Work.css";
 import "../styles/Headings.css";
 
 function Work() {
   const mgb = ["Python", "SQL", "AWS", "Healthcare Data Analysis"];
   const nyu = ["Excel", "Python", "Web Scraping"];
-  const mouumint = [
+  const monumint = [
     "Python",
     "Javascript",
     "ReactJS",
@@ -92,30 +91,7 @@ function Work() {
                 regulations and improving data accuracy and accessibility.
               </li>
             </ul>
-            <Box
-              sx={{
-                display: "flex",
-                flexWrap: "wrap",
-                padding: "-10px",
-              }}
-            >
-              {mgb.map((tag, index) => (
-                <Chip
-                  key={index}
-                  label={tag}
-                  size="small"
-                  sx={{
-                    backgroundColor: tagColors[tag],
-                    borderRadius: "16px",
-                    marginRight: "10px",
-                    height: "21px",
-                    fontSize: "1.09rem",
-                    color: " rgb(55, 53, 47)",
-                    fontWeight: "var(--chip-font-weight)",
-                  }}
-                />
-              ))}
-            </Box>
+            <TagChips tags={mgb} />
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -150,30 +126,7 @@ function Work() {
                 representation, facilitating effective communication.
               </li>
             </ul>
-            <Box
-              sx={{
-                display: "flex",
-                flexWrap: "wrap",
-                padding: "-10px",
-              }}
-            >
-              {nyu.map((tag, index) => (
-                <Chip
-                  key={index}
-                  label={tag}
-                  size="small"
-                  sx={{
-                    backgroundColor: tagColors[tag],
-                    borderRadius: "16px",
-                    marginRight: "10px",
-                    height: "21px",
-                    fontSize: "1.09rem",
-                    color: " rgb(55, 53, 47)",
-                    fontWeight: "var(--chip-font-weight)",
-                  }}
-                />
-              ))}
-            </Box>
+            <TagChips tags={nyu} />
           </TimelineContent>
         </TimelineItem>
         <TimelineItem>
@@ -209,62 +162,9 @@ function Work() {
                 decision-making processes.
               </li>
             </ul>
-            <Box
-              sx={{
-                display: "flex",
-                flexWrap: "wrap",
-                padding: "-10px",
-              }}
-            >
-              {mouumint.map((tag, index) => (
-                <Chip
-                  key={index}
-                  label={tag}
-                  size="small"
-                  sx={{
-                    backgroundColor: tagColors[tag],
-                    borderRadius: "16px",
-                    marginRight: "10px",
-                    height: "21px",
-                    fontSize: "1.09rem",
-                    color: " rgb(55, 53, 47)",
-                    fontWeight: "var(--chip-font-weight)",
-                  }}
-                />
-              ))}
-            </Box>
+            <TagChips tags={monumint} />
           </TimelineContent>
         </TimelineItem>
-        {/* <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot style={{ backgroundColor: "rgb(55, 53, 47)" }} />
-            <TimelineConnector style={{ backgroundColor: "rgb(55, 53, 47)" }} />
-          </TimelineSeparator>
-          <TimelineContent>
-            <div class="work-item">
-              <div>
-                <p class="w-heading1">TechMachinery Labs</p>
-                <p class="w-heading1-subheading">Full-Stack Intern</p>
-              </div>
-              <div class="w-right-allign">
-                <p class="w-date">Mar 2021 - Jul 2021</p>
-                <p class="w-city">Bangalore, India</p>
-              </div>
-            </div>
-            <ul className="work-description">
-              <li>
-                Developed and implemented a robust feature to display the
-                complete trading history of an NFT, utilizing data from Opensea
-                and rarible via REST API integration, resulting in a 60%
-                increase in user engagement.
-              </li>
-              <li>
-                Implemented necessary changes to support parsing of ERC1155
-                tokens,expanding the scope of supported tokens by 50%.
-              </li>
-            </ul>
-          </TimelineContent>
-        </TimelineItem> */}
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot style={{ backgroundColor: "var(--font-color)" }} />
@@ -294,30 +194,7 @@ function Work() {
                 ultrasound images increasing accuracy from 67% to 72.4%.
               </li>
             </ul>
-            <Box
-              sx={{
-                display: "flex",
-                flexWrap: "wrap",
-                padding: "-10px",
-              }}
-            >
-              {philips.map((tag, index) => (
-                <Chip
-                  key={index}
-                  label={tag}
-                  size="small"
-                  sx={{
-                    backgroundColor: tagColors[tag],
-                    borderRadius: "16px",
-                    marginRight: "10px",
-                    height: "21px",
-                    fontSize: "1.09rem",
-                    color: " rgb(55, 53, 47)",
-                    fontWeight: "var(--chip-font-weight)",
-                  }}
-                />
-              ))}
-            </Box>
+            <TagChips tags={philips} />
           </TimelineContent>
         </TimelineItem>
       </Timeline>

@@ -9,7 +9,7 @@ const projects = [
     title: "Interrilato: Exploring Data Relationships",
     description:
       "This project analyzes socioeconomic factors like literacy rates, poverty rates, unemployment rates, and crime contributions across Indian states and union territories to uncover patterns and insights, aiding in understanding regional socioeconomic dynamics. ",
-    tags: ["Python", "GeoSpatial"],
+    tags: ["Python", "GeoSpatial Data", "Spatial Analysis"],
     link: "https://github.com/avani1998/Interrilato/tree/main",
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     title: "Airbnb Data Analysis",
     description:
       "This project analyzes Airbnb listings. Key steps include data cleaning, visualization, hypothesis testing, and K-Means clustering of GPS locations.",
-    tags: ["Python", "EDA"],
+    tags: ["Python", "EDA", "Clustering", "Hypothesis Testing"],
     link: "https://github.com/avani1998/Airbnb-Data-Analysis",
   },
   {
@@ -33,6 +33,7 @@ const projects = [
       "TensorFlow",
       "Keras",
     ],
+    link: "https://github.com/avani1998/backdoor-attacks",
   },
   {
     image: "/chess.png",
@@ -58,9 +59,9 @@ const projects = [
   },
   {
     image: "/r_programming.png",
-    title: "R Programming",
+    title: "R Programming: Basic To Advanced",
     description:
-      "Implemented advanced image and video processing techniques, including 2D convolution for noise reduction and edge detection, multi-resolution image representation using pyramid and wavelet transforms, and feature-based image stitching. Developed algorithms for contrast enhancement, geometric transformations, and video motion estimation, utilizing Python for practical applications in image registration and video stabilization.",
+      "This repository is a collection of R Markdown files covering key topics in R programming, including data imports, descriptive statistics, and data visualization using ggplot2. It also features examples of condition controls, loops, and custom functions to handle various data analysis tasks.",
     tags: ["R", "Data Cleaning"],
     link: "https://github.com/avani1998/r-programming-basic-to-advanced",
   },
