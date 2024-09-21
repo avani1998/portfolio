@@ -9,6 +9,7 @@ import Education from "./Education";
 import Work from "./Work";
 import Projects from "./Projects";
 import Skills from "./Skills";
+import Publication from "./Publication";
 
 function Container({ isDark, setIsDark }) {
   return (
@@ -21,6 +22,7 @@ function Container({ isDark, setIsDark }) {
         <Education />
         <Skills />
         {/* <Routes></Routes> */}
+        <Publication />
         <Footer />
       </Router>
     </div>
