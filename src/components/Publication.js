@@ -20,6 +20,7 @@ function Publication() {
             fontSize: "14px",
             padding: "10px 20px",
             borderRadius: "10px",
+            textTransform: "none",
             "&:hover": {
               boxShadow: "0 4px 10px 0 var(--shadow-color)",
               backgroundColor: "var(--primary-hover-color)",
@@ -41,6 +42,7 @@ function Publication() {
             fontSize: "14px",
             padding: "10px 20px",
             borderRadius: "10px",
+            textTransform: "none",
             "&:hover": {
               boxShadow: "0 4px 10px 0 var(--shadow-color)",
               backgroundColor: "var(--primary-hover-color)",
