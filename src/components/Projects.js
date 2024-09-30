@@ -65,6 +65,20 @@ const projects = [
     tags: ["R", "Data Cleaning"],
     link: "https://github.com/avani1998/r-programming-basic-to-advanced",
   },
+  {
+    image: "/early_detection.png",
+    title: "Early Detection of Plant Disease",
+    description:
+      "This project aimed to build an efficient model for early detection of plant diseases, leveraging CNN architectures like GoogLeNet, VGG, and ResNet. Using the PlantVillage dataset, comprising over 50,000 images across 38 disease classes, the GoogLeNet Inception V3 model outperformed others with a 95.30% accuracy. This project demonstrates the potential of AI in agriculture, providing a practical solution for early disease identification and aiding sustainable farming practices.",
+    tags: ["Python", "DNN", "Keras", "Classification"],
+  },
+  {
+    image: "/FER.png",
+    title: "Facial Emotion Recogniton and Encoding for the Visually Impaired",
+    description:
+      "This project developed a mobile application using deep learning to assist visually impaired individuals in recognizing facial emotions. The app uses a lightweight, real-time Facial Expression Recognition (FER) model embedded with haptic feedback to convey emotions, helping improve social interactions for users.",
+    tags: ["Python", "DNN", "Keras", "Classification", "Neural Network"],
+  },
 ];
 function Projects() {
   return (
