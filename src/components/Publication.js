@@ -21,9 +21,11 @@ function Publication() {
             padding: "10px 20px",
             borderRadius: "10px",
             textTransform: "none",
+            border: "5px solid transparent",
             "&:hover": {
-              boxShadow: "0 4px 10px 0 var(--shadow-color)",
+              // boxShadow: "0 4px 10px 0 var(--shadow-color)",
               backgroundColor: "var(--primary-hover-color)",
+              border: "5px solid var(--font-color)",
             },
           }}
         >
@@ -44,8 +46,8 @@ function Publication() {
             borderRadius: "10px",
             textTransform: "none",
             "&:hover": {
-              boxShadow: "0 4px 10px 0 var(--shadow-color)",
               backgroundColor: "var(--primary-hover-color)",
+              border: "5px solid var(--font-color)",
             },
           }}
         >

@@ -21,11 +21,13 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
         margin: "5px",
         backgroundColor: "var(--background-color)",
         color: "var(--font-color)",
+        border: "5px solid transparent",
         "&:hover": {
-          boxShadow: "0 4px 10px 0 var(--shadow-color)",
-          transform: "scale(1.02)",
+          // boxShadow: "0 4px 10px 0 var(--shadow-color)",
+          // transform: "scale(1.02)",
           background: "var(--description-color)",
-          borderRadius: "15px",
+          border: "5px solid var(--font-color)",
+          // borderRadius: "15px",
         },
       }}
     >
