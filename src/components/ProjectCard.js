@@ -22,6 +22,7 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
         backgroundColor: "var(--background-color)",
         color: "var(--font-color)",
         border: "5px solid transparent",
+        transition: "border-color 0.3s ease",
         "&:hover": {
           // boxShadow: "0 4px 10px 0 var(--shadow-color)",
           // transform: "scale(1.02)",
