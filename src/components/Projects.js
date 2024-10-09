@@ -71,6 +71,7 @@ const projects = [
     description:
       "This project aimed to build an efficient model for early detection of plant diseases, leveraging CNN architectures like GoogLeNet, VGG, and ResNet. Using the PlantVillage dataset, comprising over 50,000 images across 38 disease classes, the GoogLeNet Inception V3 model outperformed others with a 95.30% accuracy. This project demonstrates the potential of AI in agriculture, providing a practical solution for early disease identification and aiding sustainable farming practices.",
     tags: ["Python", "DNN", "Keras", "Classification"],
+    link: "https://github.com/avani1998/early_detection_of_plant_disease",
   },
   {
     image: "/FER.png",
