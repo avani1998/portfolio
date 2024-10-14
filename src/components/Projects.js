@@ -5,8 +5,17 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
-    image: "/map.png",
-    title: "Interrilato: Exploring Data Relationships",
+    image: "ny_shows.png",
+    title: "Discover Iconic TV Show Locations in New York City",
+    description:
+      "Discover the real-life settings of beloved television shows through an engaging map that highlights the cultural significance of New York City as a backdrop for storytelling. ",
+    tags: ["Tableau"],
+    link: "https://public.tableau.com/app/profile/avani.vaishnav/viz/NY_Shows/Dashboard1",
+  },
+  {
+    image: "/crime.png",
+    title:
+      "How Do Literacy, Poverty, and Unemployment Affect Regional Crime Rates in India?",
     description:
       "This project analyzes socioeconomic factors like literacy rates, poverty rates, unemployment rates, and crime contributions across Indian states and union territories to uncover patterns and insights, aiding in understanding regional socioeconomic dynamics. ",
     tags: ["Python", "GeoSpatial Data", "Spatial Analysis"],

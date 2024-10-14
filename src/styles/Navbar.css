@@ -1,7 +1,8 @@
 nav {
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 80px;
+  margin-bottom: 75px;
+  padding-top: 15px;
 }
 .container {
   width: 800px;

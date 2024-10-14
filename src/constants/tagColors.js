@@ -49,5 +49,6 @@ const tagColors = {
   Packages: "#bad7f2",
   YOLO: "#ded6d1",
   RNN: "#a7bed3",
+  Tableau: "#d2d2ff",
 };
 export default tagColors;

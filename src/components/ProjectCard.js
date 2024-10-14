@@ -40,7 +40,9 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
           alt="Cholopleth Map"
         />
         <CardContent>
-          <Typography variant="h6">{title}</Typography>
+          <Typography variant="h6" sx={{ marginBottom: "5px" }}>
+            {title}
+          </Typography>
           <Box
             sx={{
               display: "flex",
