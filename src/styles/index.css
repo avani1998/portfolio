@@ -1,14 +1,4 @@
 :root {
-  --background-color: #fff;
-  --subheading-color: #595959; /*rgb(89, 89, 89)*/
-  --description-color: #f7f6f3; /*rgb(247, 246, 243)*/
-  --font-color: #37352f; /*rgb(55, 53, 47)*/
-  --font-family: "Courier Prime", monospace;
-  --chip-font-weight: 400;
-  --shadow-color: rgba(0, 0, 0, 0.3);
-}
-
-[data-theme="dark"] {
   --background-color: #0b1416;
   --font-color: #f2f4f5;
   --subheading-color: #b7c5c7;
@@ -16,4 +6,30 @@
   --chip-font-weight: 500;
   --shadow-color: rgba(255, 255, 255, 0.3);
   --font-family: "Courier Prime", monospace;
+
+  /* --background-color: #fff;
+  --subheading-color: #595959; rgb(89, 89, 89)
+  --description-color: #f7f6f3; rgb(247, 246, 243)
+  --font-color: #37352f; rgb(55, 53, 47)
+  --font-family: "Courier Prime", monospace;
+  --chip-font-weight: 400;
+  --shadow-color: rgba(0, 0, 0, 0.3); */
+}
+
+[data-theme="dark"] {
+  /* --background-color: #0b1416;
+  --font-color: #f2f4f5;
+  --subheading-color: #b7c5c7;
+  --description-color: #303030;
+  --chip-font-weight: 500;
+  --shadow-color: rgba(255, 255, 255, 0.3);
+  --font-family: "Courier Prime", monospace; */
+
+  --background-color: #fff;
+  --subheading-color: #595959; /*rgb(89, 89, 89)*/
+  --description-color: #f7f6f3; /*rgb(247, 246, 243)*/
+  --font-color: #37352f; /*rgb(55, 53, 47)*/
+  --font-family: "Courier Prime", monospace;
+  --chip-font-weight: 400;
+  --shadow-color: rgba(0, 0, 0, 0.3);
 }
