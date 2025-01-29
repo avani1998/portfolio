@@ -10,7 +10,8 @@ import "../styles/Work.css";
 import "../styles/Headings.css";
 
 function Work() {
-  const mgb = ["Python", "SQL", "AWS", "Healthcare Data Analysis"];
+  const cdawf = ["Excel", "Tableau"];
+  const mgb = ["Python", "SQL", "AWS", "Healthcare Data Analysis", "Tableau"];
   const nyu = ["Excel", "Python", "Web Scraping"];
   const monumint = [
     "Python",
@@ -31,6 +32,7 @@ function Work() {
     "Data QA",
     "Neural Network",
     "Healthcare Data Analysis",
+    "CI/CD",
   ];
 
   return (
@@ -45,6 +47,63 @@ function Work() {
         }}
         style={{ padding: "6px 0px" }}
       >
+        {/* <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot style={{ backgroundColor: "var(--font-color)" }} />
+            <TimelineConnector
+              style={{ backgroundColor: "var(--font-color)" }}
+            />
+          </TimelineSeparator>
+          <TimelineContent>
+            <div class="work-item">
+              <div>
+                <p class="w-heading1">Information is Beautiful Awards (IIB)</p>
+                <p class="w-heading1-subheading">Volunteer</p>
+              </div>
+              <div class="w-right-allign">
+                <p class="w-date">Dec 2024 - Present</p>
+                <p class="w-city">New York City</p>
+              </div>
+            </div>
+            <ul className="work-description">
+              <li></li>
+            </ul>
+          </TimelineContent>
+        </TimelineItem> */}
+
+        <TimelineItem>
+          <TimelineSeparator>
+            <TimelineDot style={{ backgroundColor: "var(--font-color)" }} />
+            <TimelineConnector
+              style={{ backgroundColor: "var(--font-color)" }}
+            />
+          </TimelineSeparator>
+          <TimelineContent>
+            <div class="work-item">
+              <div>
+                <p class="w-heading1">CDAWF</p>
+                <p class="w-heading1-subheading">Data Analyst</p>
+              </div>
+              <div class="w-right-allign">
+                <p class="w-date">Nov 2024 - Present</p>
+                <p class="w-city">New York City</p>
+              </div>
+            </div>
+            <ul className="work-description">
+              <li>
+                Conducted data collection and analysis to assess program impact,
+                social media engagement, and outreach strategies, driving a 25%
+                increase in community engagement.
+              </li>
+              <li>
+                Developed dashboards in Tableau to track key mental health
+                advocacy metrics, enabling data-driven decision-making.
+              </li>
+            </ul>
+            <TagChips tags={cdawf} />
+          </TimelineContent>
+        </TimelineItem>
+
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot style={{ backgroundColor: "var(--font-color)" }} />
@@ -94,6 +153,7 @@ function Work() {
             <TagChips tags={mgb} />
           </TimelineContent>
         </TimelineItem>
+
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot style={{ backgroundColor: "var(--font-color)" }} />
@@ -129,6 +189,7 @@ function Work() {
             <TagChips tags={nyu} />
           </TimelineContent>
         </TimelineItem>
+
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot style={{ backgroundColor: "var(--font-color)" }} />
@@ -165,6 +226,7 @@ function Work() {
             <TagChips tags={monumint} />
           </TimelineContent>
         </TimelineItem>
+
         <TimelineItem>
           <TimelineSeparator>
             <TimelineDot style={{ backgroundColor: "var(--font-color)" }} />

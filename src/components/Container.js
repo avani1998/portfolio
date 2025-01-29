@@ -17,8 +17,8 @@ function Container({ isDark, setIsDark }) {
       <Router>
         <Navbar isDark={isDark} setIsDark={setIsDark} />
         <About />
-        <Work />
         <Projects />
+        <Work />
         <Education />
         <Skills />
         {/* <Routes></Routes> */}

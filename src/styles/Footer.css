@@ -1,7 +1,8 @@
 .designed {
   margin-top: 80px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   color: var(--font-color);
+  text-align: right;
 }
 .designed p {
   margin-top: 0px;

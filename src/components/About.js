@@ -6,7 +6,8 @@ function About() {
     <div class="background">
       <div className="image-container">
         <img
-          src="/headshot.jpeg"
+          src="notion-face-2.png"
+          // src="/headshot.jpeg"
           alt="Avani Vaishnav"
           className="profile-pic"
         />
