@@ -24,11 +24,11 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
         border: "5px solid transparent",
         transition: "border-color 0.3s ease",
         "&:hover": {
-          // boxShadow: "0 4px 10px 0 var(--shadow-color)",
-          // transform: "scale(1.02)",
-          background: "var(--description-color)",
+          //boxShadow: "0 4px 10px 0 var(--shadow-color)",
+          transform: "scale(1.02)",
+          background: "var(--card-hover-background-color)",
           border: "5px solid var(--font-color)",
-          // borderRadius: "15px",
+          //borderRadius: "15px",
         },
       }}
     >
@@ -40,7 +40,7 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
           alt="Cholopleth Map"
         />
         <CardContent>
-          <Typography variant="h6" sx={{ marginBottom: "5px" }}>
+          <Typography variant="h5" sx={{ marginBottom: "20px" }}>
             {title}
           </Typography>
           <Box
@@ -60,8 +60,8 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
                   borderRadius: "16px",
                   marginRight: "8px",
                   marginBottom: "5px",
-                  height: "21px",
-                  fontSize: "1.09rem",
+                  height: "25px",
+                  fontSize: "1.2rem",
                   color: "rgb(55, 53, 47)", //No change
                   fontWeight: "var(--chip-font-weight)",
                 }}
@@ -72,7 +72,7 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
             variant="body2"
             color="var(--font-color)"
             marginTop="10px"
-            sx={{ fontSize: "1.02rem" }}
+            sx={{ fontSize: "1.2rem" }}
           >
             {description}
           </Typography>

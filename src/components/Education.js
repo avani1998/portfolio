@@ -1,18 +1,7 @@
-import React from "react";
 import "../styles/Education.css";
-import TimelineDot from "@mui/lab/TimelineDot";
-import TagChips from "./TagChip";
 
 function Education() {
-  const bd = [
-    "RDBMS",
-    "Docker",
-    "SQL",
-    "JSON",
-    "MapReduce",
-    "Hadoop",
-    "Apache Spark",
-  ];
+  const bd = ["RDBMS", "Docker", "SQL", "MapReduce", "Hadoop", "Apache Spark"];
   const r_p = ["R", "Packages", "ggplot"];
   const dl = ["CNN", "RNN", "YOLO"];
   return (
@@ -29,7 +18,7 @@ function Education() {
           <div class="city">New York City</div>
         </div>
       </div>
-      <div class="courses">
+      {/* <div class="courses">
         <p class="e-heading1">Courses</p>
         <ul class="courses-list">
           <li>CS-GY 6513: Big Data</li>
@@ -41,7 +30,7 @@ function Education() {
           <li>ECE-GY 6353: Internet Architecture and Protocols</li>
           <li>ECE-GY 6383: Network Security</li>
         </ul>
-      </div>
+      </div> */}
 
       <div class="education-item">
         <div>
@@ -55,7 +44,7 @@ function Education() {
           {/* <div class="city">Bangalore</div> */}
         </div>
       </div>
-      <div class="courses">
+      {/* <div class="courses">
         <p class="e-heading1">Courses</p>
         <ul class="courses-list">
           <li>IS54: Database Management Systems</li>
@@ -66,7 +55,7 @@ function Education() {
           <li>IS71: Data Mining</li>
           <li>IS63: Java and J2EE</li>
         </ul>
-      </div>
+      </div> */}
     </section>
   );
 }
