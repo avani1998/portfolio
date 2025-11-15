@@ -1,9 +1,9 @@
 import "../styles/PhotoWall.css";
 import "../styles/Headings.css";
 
-const photos = [
-  //"/gallery/IMG_0145.png",
-];
+// const photos = [
+//   //"/gallery/IMG_0145.png",
+// ];
 
 export default function PhotoWallFlex() {
   return (

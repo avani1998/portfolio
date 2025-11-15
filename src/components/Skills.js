@@ -2,56 +2,56 @@ import React from "react";
 import "../styles/Skills.css";
 
 function Skills() {
-  const languages = [
-    "Python",
-    "R",
-    "Java",
-    "C",
-    "JavaScript",
-    "HTML/CSS",
-    "Docker",
-    "Git",
-  ];
-  const ml = [
-    "Pandas",
-    "scikit-learn",
-    "NumPy",
-    "XGBoost",
-    "SHAP",
-    "PyTorch",
-    "TensorFlow",
-    "Keras",
-  ];
-  const ds = [
-    "Seaborn",
-    "Matplotlib",
-    "Statsmodels",
-    "SciPy",
-    "Plotly",
-    "Geopandas",
-    "ggplot2",
-    "OpenCV",
-  ];
-  const fl = [
-    "NodeJS",
-    "ReactJS",
-    "Plotly",
-    "Geopandas",
-    "PyTorch",
-    "TensorFlow",
-    "AWS",
-  ];
-  const db = ["SQL", "PostgreSQL", "MongoDB", "PLSQL", "PostgreSQL"];
-  const bi = ["Tableau", "Power BI (DAX)", "Adobe Analytics"];
-  const other = [
-    "Exploratory Analysis",
-    "Data Cleaning",
-    "Data Aggregation",
-    "Data Visualization",
-    "Dashboarding",
-    "Data Wrangling",
-    "Agil Framework",
-  ];
+  // const languages = [
+  //   "Python",
+  //   "R",
+  //   "Java",
+  //   "C",
+  //   "JavaScript",
+  //   "HTML/CSS",
+  //   "Docker",
+  //   "Git",
+  // ];
+  // const ml = [
+  //   "Pandas",
+  //   "scikit-learn",
+  //   "NumPy",
+  //   "XGBoost",
+  //   "SHAP",
+  //   "PyTorch",
+  //   "TensorFlow",
+  //   "Keras",
+  // ];
+  // const ds = [
+  //   "Seaborn",
+  //   "Matplotlib",
+  //   "Statsmodels",
+  //   "SciPy",
+  //   "Plotly",
+  //   "Geopandas",
+  //   "ggplot2",
+  //   "OpenCV",
+  // ];
+  // const fl = [
+  //   "NodeJS",
+  //   "ReactJS",
+  //   "Plotly",
+  //   "Geopandas",
+  //   "PyTorch",
+  //   "TensorFlow",
+  //   "AWS",
+  // ];
+  // const db = ["SQL", "PostgreSQL", "MongoDB", "PLSQL", "PostgreSQL"];
+  // const bi = ["Tableau", "Power BI (DAX)", "Adobe Analytics"];
+  // const other = [
+  //   "Exploratory Analysis",
+  //   "Data Cleaning",
+  //   "Data Aggregation",
+  //   "Data Visualization",
+  //   "Dashboarding",
+  //   "Data Wrangling",
+  //   "Agil Framework",
+  // ];
 
   return (
     <section>

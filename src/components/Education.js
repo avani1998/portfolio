@@ -1,9 +1,9 @@
 import "../styles/Education.css";
 
 function Education() {
-  const bd = ["RDBMS", "Docker", "SQL", "MapReduce", "Hadoop", "Apache Spark"];
-  const r_p = ["R", "Packages", "ggplot"];
-  const dl = ["CNN", "RNN", "YOLO"];
+  // const bd = ["RDBMS", "Docker", "SQL", "MapReduce", "Hadoop", "Apache Spark"];
+  // const r_p = ["R", "Packages", "ggplot"];
+  // const dl = ["CNN", "RNN", "YOLO"];
   return (
     <section class="education">
       <h3 class="subheading">Education</h3>

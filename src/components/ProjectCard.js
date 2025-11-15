@@ -17,7 +17,6 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
         borderRadius: "10px",
         // background: "rgb(247, 246, 243)",
         boxShadow: "none",
-        margin: "auto",
         margin: "5px",
         backgroundColor: "var(--background-color)",
         color: "var(--font-color)",
