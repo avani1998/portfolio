@@ -10,6 +10,8 @@ import Work from "./Work";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Publication from "./Publication";
+import CurrentFocus from "./CurrentFocus";
+import PhotoWallFlex from "./PhotoWall";
 
 function Container({ isDark, setIsDark }) {
   return (
@@ -17,12 +19,13 @@ function Container({ isDark, setIsDark }) {
       <Router>
         <Navbar isDark={isDark} setIsDark={setIsDark} />
         <About />
-        <Projects />
+        <CurrentFocus />
         <Work />
+        <Projects />
         <Education />
-        <Skills />
-        {/* <Routes></Routes> */}
+        {/* <Skills /> */}
         <Publication />
+        {/* <PhotoWallFlex /> */}
         <Footer />
       </Router>
     </div>

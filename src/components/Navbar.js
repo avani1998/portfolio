@@ -36,7 +36,7 @@ function Navbar({ isDark, setIsDark }) {
         <button
           className="links button"
           id="email"
-          onClick={() => handleOpenLink("mailto:avani.vaishnav14@gmail.com")}
+          onClick={() => handleOpenLink("")}
         >
           email
         </button>

@@ -10,6 +10,17 @@ import "../styles/Work.css";
 import "../styles/Headings.css";
 
 function Work() {
+  const cloud_philips = [
+    "AWS",
+    "Python",
+    "CI/CD",
+    "Terraform",
+    "Data Pipeline",
+    "Quicksight",
+    "AWS Glue",
+    "AWS Athena",
+    "FinOps",
+  ];
   const cdawf = ["Excel", "Tableau"];
   const mgb = ["Python", "SQL", "AWS", "Healthcare Data Analysis", "Tableau"];
   const nyu = ["Excel", "Python", "Web Scraping"];
@@ -30,7 +41,7 @@ function Work() {
     "Classification",
     "Pipeline",
     "Data QA",
-    "Neural Network",
+    "Neural Networks",
     "Healthcare Data Analysis",
     "CI/CD",
   ];
@@ -47,7 +58,7 @@ function Work() {
         }}
         style={{ padding: "6px 0px" }}
       >
-        {/* <TimelineItem>
+        <TimelineItem>
           <TimelineSeparator>
             <TimelineDot style={{ backgroundColor: "var(--font-color)" }} />
             <TimelineConnector
@@ -57,19 +68,32 @@ function Work() {
           <TimelineContent>
             <div class="work-item">
               <div>
-                <p class="w-heading1">Information is Beautiful Awards (IIB)</p>
-                <p class="w-heading1-subheading">Volunteer</p>
+                <p class="w-heading1">Philips</p>
+                <p class="w-heading1-subheading">Cloud Engineer Ⅱ</p>
               </div>
               <div class="w-right-allign">
-                <p class="w-date">Dec 2024 - Present</p>
-                <p class="w-city">New York City</p>
+                <p class="w-date">March 2025 - Present</p>
+                <p class="w-city">Bangalore</p>
               </div>
             </div>
             <ul className="work-description">
-              <li></li>
+              <p>
+                At the Radiology Informatics at Philips, I design and implement
+                scalable AWS-based solutions to bring transparency, efficiency,
+                and intelligence to our cloud ecosystem.
+              </p>
+              <p>
+                Currently, I’m leading the development of a centralized cost
+                intelligence pipeline that aggregates data from 45+ AWS accounts
+                across business units. Using S3, Glue, Athena, and QuickSight,
+                I’ve built automated ETL and visualization workflows that help
+                teams explore spend patterns, identify optimization
+                opportunities, and make informed architectural decisions.
+              </p>
             </ul>
+            <TagChips tags={cloud_philips} />
           </TimelineContent>
-        </TimelineItem> */}
+        </TimelineItem>
 
         <TimelineItem>
           <TimelineSeparator>
@@ -85,15 +109,16 @@ function Work() {
                 <p class="w-heading1-subheading">Data Analyst</p>
               </div>
               <div class="w-right-allign">
-                <p class="w-date">Nov 2024 - Present</p>
+                <p class="w-date">Nov 2024 - March 2025</p>
                 <p class="w-city">New York City</p>
               </div>
             </div>
             <ul className="work-description">
               <li>
-                Conducted data collection and analysis to assess program impact,
-                social media engagement, and outreach strategies, driving a 25%
-                increase in community engagement.
+                Conducted data collection and analysis to assess impact of
+                various programs and initiatives, social media engagement, and
+                outreach strategies, driving a 25% increase in community
+                engagement.
               </li>
               <li>
                 Developed dashboards in Tableau to track key mental health

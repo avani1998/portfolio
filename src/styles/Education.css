@@ -5,6 +5,7 @@
 .education-item {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 .subheading {
   font-size: 30px;

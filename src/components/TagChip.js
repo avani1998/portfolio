@@ -21,8 +21,8 @@ const TagChips = ({ tags }) => {
             borderRadius: "16px",
             marginRight: "8px",
             marginBottom: "5px",
-            height: "21px",
-            fontSize: "1.09rem",
+            height: "28px",
+            fontSize: "1.2rem",
             color: "rgb(55, 53, 47)", // No change font-color
             fontWeight: "var(--chip-font-weight)",
           }}
