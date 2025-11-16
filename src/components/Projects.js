@@ -5,7 +5,7 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
-    image: "ny_shows.png",
+    image: "/portfolio/ny_shows.png",
     title: "Discover Iconic TV Show Locations in New York City",
     description:
       "Discover the real-life settings of beloved television shows through an engaging map that highlights the cultural significance of New York City as a backdrop for storytelling. ",
@@ -13,7 +13,7 @@ const projects = [
     link: "https://public.tableau.com/app/profile/avani.vaishnav/viz/NY_Shows/Dashboard1",
   },
   {
-    image: "/crime.png",
+    image: "/portfolio/crime.png",
     title:
       "How Do Literacy, Poverty, and Unemployment Affect Regional Crime Rates in India?",
     description:
@@ -22,7 +22,7 @@ const projects = [
     link: "https://github.com/avani1998/Interrilato/tree/main",
   },
   {
-    image: "/airbnb.png",
+    image: "/portfolio/airbnb.png",
     title: "Airbnb Data Analysis",
     description:
       "This project analyzes Airbnb listings. Key steps include data cleaning, visualization, hypothesis testing, and K-Means clustering of GPS locations.",
@@ -30,7 +30,7 @@ const projects = [
     link: "https://github.com/avani1998/Airbnb-Data-Analysis",
   },
   {
-    image: "/backdoor.png",
+    image: "/portfolio/backdoor.png",
     title: "Backdoor Attacks in Neural Networks: Pruning Defenses Explored",
     description:
       "Explored the impact of backdoor attacks on deep neural networks (DNNs) and implemented a pruning-based defense using Python, TensorFlow, and Keras. The project focuses on identifying and removing inactive neurons triggered by adversarial data, enhancing model security without significantly compromising performance.",
@@ -45,7 +45,7 @@ const projects = [
     link: "https://github.com/avani1998/backdoor-attacks",
   },
   {
-    image: "/chess.png",
+    image: "/portfolio/chess.png",
     title: "Chess Insights: Big Data Analytics and Visualization",
     description:
       "Engineered a big data chess project leveraging Apache Airflow, Spark, AWS, and Docker to integrate data from chess.com APIs and .pgn files. Resulted in a scalable interactive web app featuring real-time visualizations and providing comprehensive insights into player statistics and game progressions.",
@@ -61,7 +61,7 @@ const projects = [
     link: "",
   },
   {
-    image: "/ivp.png",
+    image: "/portfolio/ivp.png",
     title: "Image and Video Processing",
     description:
       "Implemented advanced image and video processing techniques, including 2D convolution for noise reduction and edge detection, multi-resolution image representation using pyramid and wavelet transforms, and feature-based image stitching. Developed algorithms for contrast enhancement, geometric transformations, and video motion estimation, utilizing Python for practical applications in image registration and video stabilization.",
@@ -75,7 +75,7 @@ const projects = [
     link: "https://github.com/avani1998/image-and-video-processing/tree/main",
   },
   {
-    image: "/r_programming.png",
+    image: "/portfolio/r_programming.png",
     title: "R Programming: Basic To Advanced",
     description:
       "This repository is a collection of R Markdown files covering key topics in R programming, including data imports, descriptive statistics, and data visualization using ggplot2. It also features examples of condition controls, loops, and custom functions to handle various data analysis tasks.",
@@ -83,7 +83,7 @@ const projects = [
     link: "https://github.com/avani1998/r-programming-basic-to-advanced",
   },
   {
-    image: "/early_detection.png",
+    image: "/portfolio/early_detection.png",
     title: "Early Detection of Plant Disease",
     description:
       "This project aimed to build an efficient model for early detection of plant diseases, leveraging CNN architectures like GoogLeNet, VGG, and ResNet. Using the PlantVillage dataset, comprising over 50,000 images across 38 disease classes, the GoogLeNet Inception V3 model outperformed others with a 95.30% accuracy. This project demonstrates the potential of AI in agriculture, providing a practical solution for early disease identification and aiding sustainable farming practices.",
@@ -91,7 +91,7 @@ const projects = [
     link: "https://github.com/avani1998/early_detection_of_plant_disease",
   },
   {
-    image: "/FER.png",
+    image: "/portfolio/FER.png",
     title: "Facial Emotion Recogniton and Encoding for the Visually Impaired",
     description:
       "This project developed a mobile application using deep learning to assist visually impaired individuals in recognizing facial emotions. The app uses a lightweight, real-time Facial Expression Recognition (FER) model embedded with haptic feedback to convey emotions, helping improve social interactions for users.",
