@@ -7,7 +7,7 @@ function About() {
       <div className="image-container">
         <img
           // change this to change image
-          src="headshot.jpeg"
+          src="/portfolio/headshot.jpeg"
           alt="Avani Vaishnav"
           className="profile-pic"
         />

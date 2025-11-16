@@ -5,14 +5,14 @@ import ProjectCard from "./ProjectCard";
 
 const focus = [
   {
-    image: "philips.jpg",
+    image: "/portfolio/philips.jpg",
     title: "Cloud Modernization for Cardiology Informatics",
     description:
       "Beyond my core role at Philips, leading a strategic cross-functional initiative to migrate clinical imaging data from on-premise MS SQL Server to a cloud-native AWS RDS solution. Spearheading database analysis, schema transformation, and benchmarking of PostgreSQL vs. Aurora to ensure long-term scalability, reliability, and cost efficiency.",
     tags: ["Database Migration", "AWS", "Database Design"],
   },
   {
-    image: "dvs.jpg",
+    image: "portfolio/dvs.jpg",
     title: "Mentee, Mentorship Program Data Visualization Society",
     description:
       "Selected for a 10-week mentorship program focused on building narrative-driven visualizations. Learning and applying tools such as Flourish, and ArcGIS under expert guidance. Developing a data journalism project that communicates insights through interactive storytelling.",
