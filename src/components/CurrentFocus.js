@@ -12,7 +12,7 @@ const focus = [
     tags: ["Database Migration", "AWS", "Database Design"],
   },
   {
-    image: "portfolio/dvs.jpg",
+    image: "/portfolio/dvs.jpg",
     title: "Mentee, Mentorship Program Data Visualization Society",
     description:
       "Selected for a 10-week mentorship program focused on building narrative-driven visualizations. Learning and applying tools such as Flourish, and ArcGIS under expert guidance. Developing a data journalism project that communicates insights through interactive storytelling.",
