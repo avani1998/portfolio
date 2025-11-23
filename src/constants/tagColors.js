@@ -59,10 +59,13 @@ const tagColors = {
   Flourish: "#ffe5ec",
   "Data Storytelling": "#cddafd",
   "Data Journalism": "#ffc09f",
-  "Database Design": "#b4ebca",
+  "Database Design": "#CADCAE",
   Quicksight: "#79addc",
   "AWS Glue": "#eccbd9",
   "AWS Athena": "#b8b3e9",
   "Data Pipeline": "#d4e09b",
+  PostgreSQL: "#CBDCEB",
+  "Schema Transformation": "#D9E9CF",
+  Typeform: "#93BFCF",
 };
 export default tagColors;

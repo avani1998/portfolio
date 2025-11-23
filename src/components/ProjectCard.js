@@ -39,7 +39,7 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
           alt="Cholopleth Map"
         />
         <CardContent>
-          <Typography variant="h5" sx={{ marginBottom: "20px" }}>
+          <Typography sx={{ marginBottom: "20px", fontSize: "18px" }}>
             {title}
           </Typography>
           <Box
@@ -60,7 +60,7 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
                   marginRight: "8px",
                   marginBottom: "5px",
                   height: "25px",
-                  fontSize: "1.2rem",
+                  fontSize: "15px",
                   color: "rgb(55, 53, 47)", //No change
                   fontWeight: "var(--chip-font-weight)",
                 }}
@@ -71,7 +71,7 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
             variant="body2"
             color="var(--font-color)"
             marginTop="10px"
-            sx={{ fontSize: "1.2rem" }}
+            sx={{ fontSize: "15px" }}
           >
             {description}
           </Typography>

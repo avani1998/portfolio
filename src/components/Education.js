@@ -41,7 +41,7 @@ function Education() {
         </div>
         <div class="right-allign">
           <div class="date">June 2021</div>
-          {/* <div class="city">Bangalore</div> */}
+          <div class="city">Bangalore</div>
         </div>
       </div>
       {/* <div class="courses">

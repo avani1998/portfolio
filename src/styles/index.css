@@ -10,26 +10,14 @@
   --shadow-color: rgba(255, 255, 255, 0.3);
   --font-family: "Courier Prime", monospace;
   --card-hover-background-color: #282828;
-
-  /* --background-color: #fff;
-  --subheading-color: #595959; rgb(89, 89, 89)
-  --description-color: #f7f6f3; rgb(247, 246, 243)
-  --font-color: #37352f; rgb(55, 53, 47)
-  --font-family: "Courier Prime", monospace;
-  --chip-font-weight: 400;
-  --shadow-color: rgba(0, 0, 0, 0.3); */
+  --font-size-base: 1.3rem;
+  --heading-font-family: "Playfair Display", serif;
+  --heading-font-size: 2.5rem;
+  --subheading-margins: 50px 0px 16px 0px;
 }
 
 /* Light theme */
 [data-theme="light"] {
-  /* --background-color: #0b1416;
-  --font-color: #f2f4f5;
-  --subheading-color: #b7c5c7;
-  --description-color: #303030;
-  --chip-font-weight: 500;
-  --shadow-color: rgba(255, 255, 255, 0.3);
-  --font-family: "Courier Prime", monospace; */
-
   --background-color: #fff;
   --subheading-color: #595959; /*rgb(89, 89, 89)*/
   --description-color: #f7f6f3; /*rgb(247, 246, 243)*/

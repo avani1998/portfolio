@@ -21,7 +21,7 @@ function Work() {
     "AWS Athena",
     "FinOps",
   ];
-  const cdawf = ["Excel", "Tableau"];
+  const cdawf = ["Excel", "Typeform", "Tableau"];
   const mgb = ["Python", "SQL", "AWS", "Healthcare Data Analysis", "Tableau"];
   const nyu = ["Excel", "Python", "Web Scraping"];
   const monumint = [
@@ -114,16 +114,16 @@ function Work() {
               </div>
             </div>
             <ul className="work-description">
-              <li>
-                Conducted data collection and analysis to assess impact of
-                various programs and initiatives, social media engagement, and
-                outreach strategies, driving a 25% increase in community
-                engagement.
-              </li>
-              <li>
-                Developed dashboards in Tableau to track key mental health
-                advocacy metrics, enabling data-driven decision-making.
-              </li>
+              <p>
+                I led the end-to-end data collection and analysis for multiple
+                community programs and initiatives, where I transforming survey
+                responses and engagement metrics into actionable insights.
+              </p>
+              <p>
+                Using Tableau, I built interactive dashboards to monitor key
+                public health and wellbeing indicators, helping the team refine
+                outreach strategies and optimize program design.
+              </p>
             </ul>
             <TagChips tags={cdawf} />
           </TimelineContent>
@@ -150,30 +150,18 @@ function Work() {
               </div>
             </div>
             <ul className="work-description">
-              <li>
-                Achieved 15% reduction in patient readmission rates through the
-                development of predictive models using logistic regression and
-                random forest algorithms, enhancing patient care quality for
-                over 20,000 customers.
-              </li>
-              <li>
-                Developed interactive Tableau dashboards to visualize patient
-                readmission patterns and identify key contributing factors
-              </li>
-              <li>
-                Constructed SQL queries and developed stored procedures to
-                extract and transform data for analysis and reporting.
-              </li>
-              <li>
-                Enhanced data-driven decision-making by 29% through the
-                efficient analysis of 7 million healthcare records using Amazon
-                Redshift, resulting in actionable insights
-              </li>
-              <li>
-                Collaborated with cross-functional teams to develop reports and
-                track patient data, ensuring compliance with healthcare
-                regulations and improving data accuracy and accessibility.
-              </li>
+              <p>
+                Designed a predictive analytics workflow using logistic
+                regression and random forest models to identify the factors
+                influencing patient readmissions.
+              </p>
+              <p>
+                With SQL, stored procedures, and Amazon Redshift, I transformed
+                and analyzed 7M+ health records, then built Tableau dashboards
+                to surface trends and risks. The final solution improved
+                cross-team decision-making, strengthened compliance, and
+                contributed to a 15% decrease in readmission rates.
+              </p>
             </ul>
             <TagChips tags={mgb} />
           </TimelineContent>
