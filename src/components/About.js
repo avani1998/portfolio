@@ -14,7 +14,7 @@ function About() {
       </div>
       <div class="cont">
         <h3 class="intro">
-          hi
+          hello!&nbsp;
           <img
             src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
             alt="gif of waving hand emoji"

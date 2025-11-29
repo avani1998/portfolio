@@ -9,7 +9,14 @@ const focus = [
     title: "Cloud Modernization for Cardiology Informatics",
     description:
       "Beyond my core role at Philips, leading a strategic cross-functional initiative to migrate clinical imaging data from on-premise MS SQL Server to a cloud-native AWS RDS solution. Spearheading database analysis, schema transformation, and benchmarking of PostgreSQL vs. Aurora to ensure long-term scalability, reliability, and cost efficiency.",
-    tags: ["Database Migration", "AWS", "Database Design"],
+    tags: [
+      "Database Migration",
+      "AWS",
+      "Database Design",
+      "SQL",
+      "PostgreSQL",
+      "Schema Transformation",
+    ],
   },
   {
     image: "/portfolio/dvs.jpg",

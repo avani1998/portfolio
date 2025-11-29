@@ -6,13 +6,13 @@ html {
   padding: 0;
   box-sizing: border-box;
   margin: 0;
-  font-size: 12px;
+  font-size: 100%;
   font-family: var(--font-family);
   /*background-color: var(--background-color); /*Whole page color*/
 }
 .App {
-  width: 800px;
-  /*background-color: var(--background-color); */ /*color container*/
+  width: 50rem;
+  /*background-color: var(--background-color);*/ /*color container*/
   font-family: var(--font-family);
 }
 .App-container {
@@ -45,7 +45,7 @@ html {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(0.625rem + 2vmin);
   /*color: blue; white;*/
 }
 
