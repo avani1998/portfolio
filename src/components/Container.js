@@ -1,6 +1,5 @@
-import React from "react";
 import "../styles/Container.css";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -16,7 +15,7 @@ import CurrentFocus from "./CurrentFocus";
 function Container({ isDark, setIsDark }) {
   return (
     <div className="container">
-      <BrowserRouter basename="/portfolio">
+      <HashRouter>
         <Navbar isDark={isDark} setIsDark={setIsDark} />
         <About />
         <CurrentFocus />
@@ -27,7 +26,7 @@ function Container({ isDark, setIsDark }) {
         <Publication />
         {/* <PhotoWallFlex /> */}
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

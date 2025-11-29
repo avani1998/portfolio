@@ -5,10 +5,10 @@
   color: var(--font-color);
 }
 .name {
-  font-family: "Playfair Display", serif;
+  font-family: "General Sans", serif;
   color: var(--font-color);
   font-size: 4rem;
-  margin: -20px 0px 0px 5px;
+  margin: 20px 0px 0px 5px;
 }
 .quote-intro p {
   /* font-family: "Courier Prime", monospace; */
@@ -30,7 +30,7 @@
 }
 .background {
   /* background: rgb(247, 246, 243); */
-  display: flex;
+  display: block;
   align-items: center; /* Center vertically */
   justify-content: space-around;
   height: 75vh;
@@ -42,10 +42,16 @@
 .image-container {
   margin-right: 50px;
   margin-left: 20px;
+  display: flex;
+  justify-content: center;
 }
 .profile-pic {
   width: 250px; /* Adjust the size */
   height: 250px; /* Make it a square */
   border-radius: 50%; /* Make the image circular */
-  border: 5px solid var(--font-color);
+  border: 7px solid var(--font-color);
+}
+
+.cont {
+  text-align: center;
 }
