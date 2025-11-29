@@ -13,18 +13,22 @@ function About() {
         />
       </div>
       <div class="cont">
-        <h3 class="intro">
-          hello!&nbsp;
-          <img
+        <h1 class="name">
+          Hey! I'm Avani
+          {/* <img
             src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif"
             alt="gif of waving hand emoji"
             width="45px"
             frameBorder="0"
             class="giphy-embed"
-          />
-          {/* &nbsp;I'm */}
-        </h3>
-        <h1 class="name">i'm avani</h1>
+          /> */}
+        </h1>
+        <p>
+          An engineer focused on cloud, data and building pipelines that don't
+          break at 2 AM. Currently helping <strong>Philips</strong> design
+          scalable cloud systems that impact lives.
+        </p>
+        {/* <h1 class="name">CLOUD ENGINEER</h1> */}
         {/* <blockquote class="quote-intro">
           <p>
             A passionate Data Scientist with a Master's degree in Computer
