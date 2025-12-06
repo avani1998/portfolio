@@ -32,12 +32,7 @@ const ProjectCard = ({ image, title, description, tags, link }) => {
       }}
     >
       <CardActionArea href={link} target="_blank">
-        <CardMedia
-          component="img"
-          height="250"
-          image={image}
-          alt="Cholopleth Map"
-        />
+        <CardMedia component="img" height="250" image={image} />
         <CardContent>
           <Typography sx={{ marginBottom: "20px", fontSize: "18px" }}>
             {title}
