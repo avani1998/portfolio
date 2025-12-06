@@ -32,6 +32,13 @@ const focus = [
       "Data Journalism",
     ],
   },
+  {
+    image: "/portfolio/philips_blue.png",
+    title: "Cloud Engineer 2",
+    description:
+      "Building a reliable cloud data pipeline and improving how our cloud infrastructure runs behind the scenes. I work on making our infrastructure more efficient and stable that supports our PACS.",
+    tags: ["AWS", "CI/CD", "Data Pipeline", "Dashboarding", "FinOps"],
+  },
 ];
 function CurrentFocus() {
   return (

@@ -1,3 +1,5 @@
+import { Dashboard } from "@mui/icons-material";
+
 const tagColors = {
   Python: "#cdeac0",
   Java: "#EFDFDA",
@@ -67,5 +69,6 @@ const tagColors = {
   PostgreSQL: "#CBDCEB",
   "Schema Transformation": "#D9E9CF",
   Typeform: "#93BFCF",
+  Dashboarding: "#D3CEDF",
 };
 export default tagColors;
