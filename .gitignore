@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/src/App2.js
+/src/components/About2.js
+/public/folder.svg
+/src/styles/About2.css

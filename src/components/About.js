@@ -26,7 +26,7 @@ function About() {
         <p>
           An engineer focused on cloud, data and building pipelines that don't
           break at 2 AM. Currently helping <strong>Philips</strong> design
-          scalable cloud systems that impact lives.
+          scalable cloud systems for real-world healthcare solutions.
         </p>
         {/* <h1 class="name">CLOUD ENGINEER</h1> */}
         {/* <blockquote class="quote-intro">
