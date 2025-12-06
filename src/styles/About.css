@@ -55,3 +55,7 @@
 .cont {
   text-align: center;
 }
+
+p {
+  color: var(--font-color);
+}
