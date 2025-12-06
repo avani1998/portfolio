@@ -1,5 +1,3 @@
-import { Dashboard } from "@mui/icons-material";
-
 const tagColors = {
   Python: "#cdeac0",
   Java: "#EFDFDA",
