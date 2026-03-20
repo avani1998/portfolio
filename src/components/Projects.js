@@ -5,6 +5,20 @@ import ProjectCard from "./ProjectCard";
 
 const projects = [
   {
+    image: "/portfolio/philips.jpg",
+    title: "Cloud Modernization for Cardiology Informatics",
+    description:
+      "Beyond my core role at Philips, led a strategic cross-functional initiative to migrate clinical imaging data from MYSQL Server on EC2 to a cloud-native AWS RDS solution. Spearheaded database analysis, schema transformation, and benchmarking of PostgreSQL vs. Aurora to ensure long-term scalability, reliability, and cost efficiency.",
+    tags: [
+      "Database Migration",
+      "AWS",
+      "Database Design",
+      "SQL",
+      "PostgreSQL",
+      "Schema Transformation",
+    ],
+  },
+  {
     image: "/portfolio/ny_shows.png",
     title: "Discover Iconic TV Show Locations in New York City",
     description:

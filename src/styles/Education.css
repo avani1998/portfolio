@@ -3,9 +3,14 @@
   flex-direction: column;
 }
 .education-item {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 100px minmax(0, 1fr) auto;
+  column-gap: 24px;
+  align-items: start;
   padding-bottom: 20px;
+}
+.education-item img {
+  display: block;
 }
 .subheading {
   font-size: 30px;

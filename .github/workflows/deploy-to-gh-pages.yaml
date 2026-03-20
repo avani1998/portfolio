@@ -21,11 +21,11 @@ jobs:
       - name: Build React app
         run: npm run build
 
+      - name: Ensure 404.html fallback exists
+        run: cp build/index.html build/404.html
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GH_TOKEN }}
           publish_dir: ./build
-
-      - name: Ensure 404.html fallback exists
-        run: cp build/index.html build/404.html

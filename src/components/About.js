@@ -25,7 +25,7 @@ function About() {
         </h1>
         <p>
           An engineer focused on cloud, data and building pipelines that don't
-          break at 2 AM. Currently helping <strong>Philips</strong> design
+          break at 2 AM. Currently at <strong>Philips</strong> designing
           scalable cloud systems for real-world healthcare solutions.
         </p>
         {/* <h1 class="name">CLOUD ENGINEER</h1> */}

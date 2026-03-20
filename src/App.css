@@ -8,7 +8,15 @@ html {
   margin: 0;
   font-size: 100%;
   font-family: var(--font-family);
-  /*background-color: var(--background-color); /*Whole page color*/
+  background-color: var(--background-color);
+  color: var(--font-color);
+  transition:
+    background-color 0.3s ease-in-out,
+    color 0.3s ease-in-out;
+}
+
+#root {
+  min-height: 100vh;
 }
 .App {
   width: 50rem;
@@ -19,7 +27,11 @@ html {
   background-color: var(
     --background-color
   ); /*change this value for whole page color*/
-  transition: background-color 0.9 ease-in-out;
+  color: var(--font-color);
+  /* transition:
+    background-color 0.3s ease-in-out,
+    color 0.3s ease-in-out; */
+  min-height: 100vh;
   width: 100vw;
 }
 .container {
