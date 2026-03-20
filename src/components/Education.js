@@ -10,6 +10,9 @@ function Education() {
 
       <div class="education-item">
         <div>
+          <img src="/portfolio/nyu.png" alt="New York University" width="115" />
+        </div>
+        <div>
           <p class="e-heading1">Master's of Science in Computer Engineering</p>
           <p class="e-heading1-subheading">New York University</p>
         </div>
@@ -33,6 +36,13 @@ function Education() {
       </div> */}
 
       <div class="education-item">
+        <div>
+          <img
+            src="/portfolio/ramaiah.png"
+            alt="Ramaiah Institute of Technology"
+            width="100"
+          />
+        </div>
         <div>
           <p class="e-heading1">
             Bachelor's of Engineering in Information Science and Engineering
